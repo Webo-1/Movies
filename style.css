@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 10px 0px 25px black;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+
+header .container nav {
+    margin-left: auto;
+}
+
+header .container nav li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+header .container nav li a {
+    text-decoration: none;
+    color: #ff224a;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+header .container nav li a:hover {
+    transition: 0.5s;
+    text-shadow: 1px 1px 5px #7b7878;
+}
+
+header .container .SignIn {
+    color: #fff;
+    font-size: 10px;
+    background-color: darkcyan;
+    padding: 5px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+header .container .logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+header .container .logo span {
+    color: #ff2249;
+    font-family: cursive;
+}
+
+/* HEADER */
+
+/* Nav Bar */
+
+.navBar {
+    background-color: #222;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 42px;
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0 10px 25px black;
+}
+
+.navBar h2 {
+    color: #fff;
+    letter-spacing: 15px;
+    padding: 5px 5px 5px 15px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.navBar li,
+.navBar a {
+    line-height: 50px;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: #ff224a95;
+    text-shadow: 1px 1px 2px #600000;
+}
+
+/* Nav Bar */
+
+section {
+    padding-top: 50px;
+    width: 1150px;
+}
+
+.sectionOne {
+    display: block;
+    margin: 50px 0;
+    background-color: #222;
+    align-content: center;
+}
+
+.sectionOne h2, p {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ff2249;
+    font-weight: 900;
+    font-size: 23px;
+    text-shadow: 1px 1px 5px rgba(255, 0, 0, 0.657);
+}
+
+.sectionOne .image {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.sectionOne .image img {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 20px 30px 5px #111;
+}
+.sectionOne .image .btnImg h4{
+    color: #ff2249;
+    display: block;
+    border-radius:  0px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
